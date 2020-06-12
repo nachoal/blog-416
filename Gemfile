@@ -19,6 +19,8 @@ gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.4.2', require: false
 # Simple forms
 gem 'simple_form'
+# Add keys gem so that we can have hidden environment variables
+gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
