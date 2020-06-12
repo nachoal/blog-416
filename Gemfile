@@ -21,6 +21,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'simple_form'
 # Add keys gem so that we can have hidden environment variables
 gem 'dotenv-rails', groups: [:development, :test]
+# Image hosting service
+gem 'cloudinary', '~> 1.12.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
